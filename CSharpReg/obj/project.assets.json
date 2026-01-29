@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\wjhul\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ettej\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\B1_Vertaalopdracht_DO1_CSharpReg\\CSharpReg\\CSharpReg.csproj",
+      "projectUniqueName": "C:\\Users\\ettej\\Documents\\GitHub\\B1_Vertaalopdracht_DO1_C-Reg\\CSharpReg\\CSharpReg.csproj",
       "projectName": "CSharpReg",
-      "projectPath": "C:\\git\\B1_Vertaalopdracht_DO1_CSharpReg\\CSharpReg\\CSharpReg.csproj",
-      "packagesPath": "C:\\Users\\wjhul\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\B1_Vertaalopdracht_DO1_CSharpReg\\CSharpReg\\obj\\",
+      "projectPath": "C:\\Users\\ettej\\Documents\\GitHub\\B1_Vertaalopdracht_DO1_C-Reg\\CSharpReg\\CSharpReg.csproj",
+      "packagesPath": "C:\\Users\\ettej\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ettej\\Documents\\GitHub\\B1_Vertaalopdracht_DO1_C-Reg\\CSharpReg\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\wjhul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ettej\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -44,7 +40,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "netcoreapp3.1": {
@@ -55,16 +57,35 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

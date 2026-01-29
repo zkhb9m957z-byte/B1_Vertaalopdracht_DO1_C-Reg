@@ -16,7 +16,7 @@ namespace CSharpReg
             decimal dagTotaal = 0;
             int aantalBonnen = 0;
             decimal dagTotaalTerug = 0;
-
+             Console.Writeline(dagTotaalTerug); 
             while (keuze != "9")
             {
                 Console.Clear();
